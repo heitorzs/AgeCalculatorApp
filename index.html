@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+
+</head>
+
+<body>
+  <main>
+    <section class="calculator">
+      <div class="input-date">
+        <did class="date">
+          <label>Day</label>
+          <input type="text" id="dayIn" name="day" min="1" max="31" placeholder="DD" required>
+          <small></small>
+        </did>
+
+        <did class="date">
+          <label>Month</label>
+          <input type="" id="mounthIn" placeholder="MM" required value="">
+          <small></small>
+        </did>
+
+        <did class="date">
+          <label>Year</label>
+          <input type="" id="yearIn" placeholder="YYYY" required value="">
+          <small></small>
+        </did>
+      </div>
+      <div class="line">
+        <button id="button" class="button" type="submit">
+          <img src="./assets/images/icon-arrow.svg" alt="icon-arrow" />
+        </button>
+      </div>
+      <div class="result">
+        
+          <div><span id="yearOut" class="--">--</span> Years </div>
+          <div><span id="monthOut" class="--">--</span> Months </div>
+          <div><span id="dayOut" class="--">--</span> Days </div>
+        
+      </div>
+    </section>
+
+
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Heitor Zimmer</a>.
+    </div>
+  </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
